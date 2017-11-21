@@ -1,0 +1,55 @@
+/home/zhenlin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zhenlin/Documents/RFID/BasicMoudle/Tash/gr-rfid
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   filesystem
+--   system
+CMake Warning at CMakeLists.txt:68 (find_package):
+  By not providing "FindRapidJSON　REQUIRED.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "RapidJSON　REQUIRED", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "RapidJSON　REQUIRED" with any of the following names:
+
+    RapidJSON　REQUIREDConfig.cmake
+    rapidjson　required-config.cmake
+
+  Add the installation prefix of "RapidJSON　REQUIRED" to CMAKE_PREFIX_PATH
+  or set "RapidJSON　REQUIRED_DIR" to a directory containing one of the
+  above files.  If "RapidJSON　REQUIRED" provides a separate development
+  package or SDK, be sure it has been installed.
+
+
+-- Checking for module 'cppunit'
+--   Found cppunit, version 1.13.2
+Checking for GNU Radio Module: RUNTIME
+-- Checking for module 'gnuradio-runtime'
+--   Found gnuradio-runtime, version 3.7.11.1
+ * INCLUDES=/usr/local/include
+ * LIBS=/usr/local/lib/libgnuradio-runtime.so;/usr/local/lib/libgnuradio-pmt.so;/usr/local/lib/liblog4cpp.so
+GNURADIO_RUNTIME_FOUND = TRUE
+Checking for GNU Radio Module: FILTER
+-- Checking for module 'gnuradio-filter'
+--   Found gnuradio-filter, version 3.7.11.1
+ * INCLUDES=/usr/local/include
+ * LIBS=/usr/local/lib/libgnuradio-filter.so;/usr/local/lib/libgnuradio-fft.so;/usr/local/lib/libgnuradio-runtime.so;/usr/local/lib/libgnuradio-pmt.so;/usr/local/lib/liblog4cpp.so
+GNURADIO_FILTER_FOUND = TRUE
+CMake Warning (dev) at /usr/local/lib/cmake/gnuradio/GrTest.cmake:45 (get_target_property):
+  Policy CMP0026 is not set: Disallow use of the LOCATION target property.
+  Run "cmake --help-policy CMP0026" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  The LOCATION property should not be read from target "test-rfid".  Use the
+  target name directly with add_custom_command, or use the generator
+  expression $<TARGET_FILE>, as appropriate.
+
+Call Stack (most recent call first):
+  lib/CMakeLists.txt:83 (GR_ADD_TEST)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- 
+-- Checking for module SWIG
+-- Found SWIG version 3.0.8.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/zhenlin/Documents/RFID/BasicMoudle/Tash/gr-rfid/cmake-build-debug

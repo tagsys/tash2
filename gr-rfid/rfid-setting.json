@@ -1,0 +1,22 @@
+{
+  "RFID-SETTING":[
+    {
+      "Query": {
+        "SEL": "SL",
+        "SESSION": "SL",
+        "TARGET": "A",
+        "Q": 0
+      },
+      "Select": [
+        {
+          "ACTION":[0, 0, 0],
+          "MEMBANK":[0, 1],
+          "POINTER":[0, 0, 1, 0, 0, 0, 0, 0],
+          "LENGTH":[0, 0, 0, 0, 0, 0, 0, 1],
+          "MASK":[1],
+          "TRUNCATE":[1]
+        }
+      ]
+    }
+  ]
+}
