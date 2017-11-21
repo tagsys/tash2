@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="gr-tash" targetName="tash_swig_swig_2d0df" />
+      <config projectName="gr-tash" targetName="_tash_swig_doc_tag" />
+      <config projectName="gr-tash" targetName="gnuradio-tash" />
+      <config projectName="gr-tash" targetName="pygen_swig_7a979" />
+      <config projectName="gr-tash" targetName="pygen_apps_9a6dd" />
+      <config projectName="gr-tash" targetName="_tash_swig" />
+      <config projectName="gr-tash" targetName="test-tash" />
+      <config projectName="gr-tash" targetName="pygen_python_ef8e5" />
+      <config projectName="gr-tash" targetName="_tash_swig_swig_tag" />
+      <config projectName="gr-tash" targetName="uninstall" />
+      <config projectName="gr-tash" targetName="doxygen_target" />
+      <config projectName="gr-tash" targetName="tash_swig_swig_doc" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7f9bd48e-989a-4979-a6cf-22d766d6101d" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="reader.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/tash/reader.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="638">
+              <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+              <folding>
+                <element signature="e#850#871#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tashconfig.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/tash/tashconfig.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="112" column="9" lean-forward="false" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+              <folding>
+                <element signature="e#858#879#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decoder_impl.cc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/decoder_impl.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gate_impl.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/gate_impl.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding>
+                <element signature="e#855#877#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gate.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/tash/gate.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="22" />
+              <folding>
+                <element signature="e#846#867#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decoder.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/tash/decoder.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="e#852#873#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decoder_impl.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/decoder_impl.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-83">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#861#886#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reader_impl.cc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/reader_impl.cc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="525" column="13" lean-forward="false" selection-start-line="525" selection-start-column="13" selection-end-line="525" selection-end-column="13" />
+              <folding>
+                <element signature="e#807#826#0" expanded="true" />
+                <element signature="e#835#869#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/apps/reader_show.py" />
+        <option value="$PROJECT_DIR$/include/tash/decoder.h" />
+        <option value="$PROJECT_DIR$/lib/gate_impl.h" />
+        <option value="$PROJECT_DIR$/lib/reader_impl.h" />
+        <option value="$PROJECT_DIR$/include/tash/tashconfig.h" />
+        <option value="$PROJECT_DIR$/lib/tashconfig.cc" />
+        <option value="$PROJECT_DIR$/lib/gate_impl.cc" />
+        <option value="$PROJECT_DIR$/include/tash/gate.h" />
+        <option value="$PROJECT_DIR$/include/tash/reader.h" />
+        <option value="$PROJECT_DIR$/lib/reader_impl.cc" />
+        <option value="$PROJECT_DIR$/lib/decoder_impl.cc" />
+        <option value="$PROJECT_DIR$/lib/decoder_impl.h" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-4" />
+    <option name="width" value="1920" />
+    <option name="height" value="1019" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gr-tash" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="gr-tash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gr-tash" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="gr-tash" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gr-tash" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="gr-tash" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gr-tash" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="gr-tash" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="tash" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gr-tash" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="gr-tash" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.test-tash">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="_tash_swig" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-tash" TARGET_NAME="_tash_swig" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="_tash_swig_doc_tag" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-tash" TARGET_NAME="_tash_swig_doc_tag" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gr-tash" RUN_TARGET_NAME="_tash_swig_doc_tag">
+      <envs />
+    </configuration>
+    <configuration name="_tash_swig_swig_tag" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-tash" TARGET_NAME="_tash_swig_swig_tag" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gr-tash" RUN_TARGET_NAME="_tash_swig_swig_tag">
+      <envs />
+    </configuration>
+    <configuration name="doxygen_target" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-tash" TARGET_NAME="doxygen_target" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="gnuradio-tash" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-tash" TARGET_NAME="gnuradio-tash" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="pygen_apps_9a6dd" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-tash" TARGET_NAME="pygen_apps_9a6dd" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="pygen_python_ef8e5" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-tash" TARGET_NAME="pygen_python_ef8e5" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="pygen_swig_7a979" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-tash" TARGET_NAME="pygen_swig_7a979" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="tash_swig_swig_2d0df" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-tash" TARGET_NAME="tash_swig_swig_2d0df" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gr-tash" RUN_TARGET_NAME="tash_swig_swig_2d0df">
+      <envs />
+    </configuration>
+    <configuration name="tash_swig_swig_doc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-tash" TARGET_NAME="tash_swig_swig_doc" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="test-tash" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-tash" TARGET_NAME="test-tash" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gr-tash" RUN_TARGET_NAME="test-tash">
+      <envs />
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gr-tash" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <list size="13">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.uninstall" />
+      <item index="2" class="java.lang.String" itemvalue="Application.pygen_apps_9a6dd" />
+      <item index="3" class="java.lang.String" itemvalue="Application.doxygen_target" />
+      <item index="4" class="java.lang.String" itemvalue="Application.gnuradio-tash" />
+      <item index="5" class="java.lang.String" itemvalue="Application.test-tash" />
+      <item index="6" class="java.lang.String" itemvalue="Application.pygen_python_ef8e5" />
+      <item index="7" class="java.lang.String" itemvalue="Application._tash_swig" />
+      <item index="8" class="java.lang.String" itemvalue="Application._tash_swig_doc_tag" />
+      <item index="9" class="java.lang.String" itemvalue="Application._tash_swig_swig_tag" />
+      <item index="10" class="java.lang.String" itemvalue="Application.pygen_swig_7a979" />
+      <item index="11" class="java.lang.String" itemvalue="Application.tash_swig_swig_2d0df" />
+      <item index="12" class="java.lang.String" itemvalue="Application.tash_swig_swig_doc" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f9bd48e-989a-4979-a6cf-22d766d6101d" name="Default" comment="" />
+      <created>1511265272216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511265272216</updated>
+      <workItem from="1511265273763" duration="1805000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1805000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-4" width="1920" height="1019" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/apps/reader_show.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2440">
+          <caret line="68" column="23" lean-forward="true" selection-start-line="68" selection-start-column="23" selection-end-line="68" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/x86_64-linux-gnu/sys/time.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="90" column="18" lean-forward="false" selection-start-line="90" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gate_impl.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="e#835#869#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tashconfig.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="709">
+          <caret line="48" column="18" lean-forward="true" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
+          <folding>
+            <element signature="e#807#826#0" expanded="false" />
+            <element signature="e#835#869#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/reader_impl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1421">
+          <caret line="87" column="15" lean-forward="false" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/gate_impl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="33" column="34" lean-forward="false" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#855#877#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/tash/gate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="e#846#867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/tash/decoder.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#852#873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/tash/reader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding>
+            <element signature="e#850#871#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/tash/tashconfig.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="112" column="9" lean-forward="false" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+          <folding>
+            <element signature="e#858#879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/fstream">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="494" column="6" lean-forward="false" selection-start-line="494" selection-start-column="6" selection-end-line="494" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/5/iosfwd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="161" column="36" lean-forward="false" selection-start-line="161" selection-start-column="36" selection-end-line="161" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/include/rapidjson/document.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/reader_impl.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="525" column="13" lean-forward="false" selection-start-line="525" selection-start-column="13" selection-end-line="525" selection-end-column="13" />
+          <folding>
+            <element signature="e#807#826#0" expanded="true" />
+            <element signature="e#835#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/decoder_impl.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/decoder_impl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-83">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#861#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

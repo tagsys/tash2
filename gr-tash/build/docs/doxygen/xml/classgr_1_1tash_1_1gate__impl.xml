@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1tash_1_1gate__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::tash::gate_impl</compoundname>
+    <basecompoundref refid="classgr_1_1tash_1_1gate" prot="public" virt="non-virtual">gr::tash::gate</basecompoundref>
+    <includes refid="gate__impl_8h" local="no">gate_impl.h</includes>
+      <sectiondef kind="private-type">
+      <memberdef kind="enum" id="classgr_1_1tash_1_1gate__impl_1a62f7d38ea2e2ca9cc075ba736114083b" prot="private" static="no">
+        <name>SIGNAL_STATE</name>
+        <enumvalue id="classgr_1_1tash_1_1gate__impl_1a62f7d38ea2e2ca9cc075ba736114083ba68b6ff9d11e3453574ba9918882a0700" prot="private">
+          <name>NEG_EDGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classgr_1_1tash_1_1gate__impl_1a62f7d38ea2e2ca9cc075ba736114083ba15abfaec309d18f0bd3d7afa454febea" prot="private">
+          <name>POS_EDGE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1a87a53fa809c0dc7a772dc4ce87aa802a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::gate_impl::n_samples</definition>
+        <argsstring></argsstring>
+        <name>n_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="37" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1ac8bffca4aa7b7db3a91182110da6f51c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::gate_impl::n_samples_T1</definition>
+        <argsstring></argsstring>
+        <name>n_samples_T1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="37" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1a057902cd0e53f81e69b96e80675edb02" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::gate_impl::n_samples_PW</definition>
+        <argsstring></argsstring>
+        <name>n_samples_PW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="37" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1a63e795ffe213ced56b551bba2e0d9767" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::gate_impl::n_samples_TAG_BIT</definition>
+        <argsstring></argsstring>
+        <name>n_samples_TAG_BIT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="37" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1a5f6512ba8ba7ba3ac85f0eda22485cad" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::gate_impl::win_index</definition>
+        <argsstring></argsstring>
+        <name>win_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="38" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1a7cfd2d52776bbfb227f83b6874c57c18" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::gate_impl::dc_index</definition>
+        <argsstring></argsstring>
+        <name>dc_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="38" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1aab6c54afede9e92a005064f3bb5e8f02" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::gate_impl::win_length</definition>
+        <argsstring></argsstring>
+        <name>win_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="38" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1af1026ac3c7e60c615f6cde6a7751e3d0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::gate_impl::dc_length</definition>
+        <argsstring></argsstring>
+        <name>dc_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="38" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1a4259a9b559d3087cfcf4608c8452f4aa" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::gate_impl::s_rate</definition>
+        <argsstring></argsstring>
+        <name>s_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="38" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1ae1fbd0684b2a9f7c71f17a528b81f0f3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::tash::gate_impl::avg_ampl</definition>
+        <argsstring></argsstring>
+        <name>avg_ampl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="39" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1a7ee514d4f286da13c1eb46cc23a6be95" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::tash::gate_impl::num_pulses</definition>
+        <argsstring></argsstring>
+        <name>num_pulses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="39" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1a51a8ca2ad0a677a2ec1f2bfcd4b0f02d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::tash::gate_impl::sample_thresh</definition>
+        <argsstring></argsstring>
+        <name>sample_thresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="39" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1a7eb6c0267676a4788d1967ef184374f3" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::gate_impl::win_samples</definition>
+        <argsstring></argsstring>
+        <name>win_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="41" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1af1c8f8e973928595dae36f8496e303e5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::gate_impl::cw_samples</definition>
+        <argsstring></argsstring>
+        <name>cw_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="41" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1a3ceda8a2b6094e54f3dc8a34130f0ad4" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; gr_complex &gt;</type>
+        <definition>std::vector&lt;gr_complex&gt; gr::tash::gate_impl::dc_samples</definition>
+        <argsstring></argsstring>
+        <name>dc_samples</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="42" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1a8625f4545948681efd8b0aec9473f446" prot="private" static="no" mutable="no">
+        <type>gr_complex</type>
+        <definition>gr_complex gr::tash::gate_impl::dc_est</definition>
+        <argsstring></argsstring>
+        <name>dc_est</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="43" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1gate__impl_1a73525db8c87e0092b80c91ef5f3d73ae" prot="private" static="no" mutable="no">
+        <type>SIGNAL_STATE</type>
+        <definition>SIGNAL_STATE gr::tash::gate_impl::signal_state</definition>
+        <argsstring></argsstring>
+        <name>signal_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="45" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tash_1_1gate__impl_1a9d482a8ebacea3931083d4a8d2c57f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tash::gate_impl::gate_impl</definition>
+        <argsstring>(int sample_rate)</argsstring>
+        <name>gate_impl</name>
+        <param>
+          <type>int</type>
+          <declname>sample_rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1gate__impl_1a3e9ffc3530c7e7c74090d1143a53a925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tash::gate_impl::~gate_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~gate_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1gate__impl_1ace7101ef09b93ac7ab6f0642435599d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tash::gate_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1gate__impl_1ac574efe836dfbf3c1730f74988e0383f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::tash::gate_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>gr::tash::gate_impl</label>
+        <link refid="classgr_1_1tash_1_1gate__impl"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>block</label>
+      </node>
+      <node id="22">
+        <label>gr::tash::gate</label>
+        <link refid="classgr_1_1tash_1_1gate"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="24">
+        <label>gr::tash::gate_impl</label>
+        <link refid="classgr_1_1tash_1_1gate__impl"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>block</label>
+      </node>
+      <node id="25">
+        <label>gr::tash::gate</label>
+        <link refid="classgr_1_1tash_1_1gate"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" line="30" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/gate_impl.h" bodystart="30" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tash_1_1gate__impl_1ae1fbd0684b2a9f7c71f17a528b81f0f3" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>avg_ampl</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1af1c8f8e973928595dae36f8496e303e5" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>cw_samples</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a8625f4545948681efd8b0aec9473f446" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>dc_est</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a7cfd2d52776bbfb227f83b6874c57c18" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>dc_index</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1af1026ac3c7e60c615f6cde6a7751e3d0" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>dc_length</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a3ceda8a2b6094e54f3dc8a34130f0ad4" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>dc_samples</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1ace7101ef09b93ac7ab6f0642435599d5" prot="public" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a9d482a8ebacea3931083d4a8d2c57f52" prot="public" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>gate_impl</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1ac574efe836dfbf3c1730f74988e0383f" prot="public" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1tash_1_1gate_1af487c50277b480117b118af7ff414fdf" prot="public" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a87a53fa809c0dc7a772dc4ce87aa802a" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>n_samples</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a057902cd0e53f81e69b96e80675edb02" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>n_samples_PW</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1ac8bffca4aa7b7db3a91182110da6f51c" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>n_samples_T1</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a63e795ffe213ced56b551bba2e0d9767" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>n_samples_TAG_BIT</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a62f7d38ea2e2ca9cc075ba736114083ba68b6ff9d11e3453574ba9918882a0700" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>NEG_EDGE</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a7ee514d4f286da13c1eb46cc23a6be95" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>num_pulses</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a62f7d38ea2e2ca9cc075ba736114083ba15abfaec309d18f0bd3d7afa454febea" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>POS_EDGE</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a4259a9b559d3087cfcf4608c8452f4aa" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>s_rate</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a51a8ca2ad0a677a2ec1f2bfcd4b0f02d" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>sample_thresh</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a62f7d38ea2e2ca9cc075ba736114083b" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>SIGNAL_STATE</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a73525db8c87e0092b80c91ef5f3d73ae" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>signal_state</name></member>
+      <member refid="classgr_1_1tash_1_1gate_1ad4141e002564b27f3d5687caf01cf748" prot="public" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a5f6512ba8ba7ba3ac85f0eda22485cad" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>win_index</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1aab6c54afede9e92a005064f3bb5e8f02" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>win_length</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a7eb6c0267676a4788d1967ef184374f3" prot="private" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>win_samples</name></member>
+      <member refid="classgr_1_1tash_1_1gate__impl_1a3e9ffc3530c7e7c74090d1143a53a925" prot="public" virt="non-virtual"><scope>gr::tash::gate_impl</scope><name>~gate_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

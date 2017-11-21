@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1tash_1_1tashconfig" kind="class" language="C++" prot="public">
+    <compoundname>gr::tash::tashconfig</compoundname>
+    <includes refid="tashconfig_8h" local="no">tashconfig.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tash_1_1tashconfig_1a1d6b286fefa49d1e6fd299f04f25c75a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tash::tashconfig::tashconfig</definition>
+        <argsstring>()</argsstring>
+        <name>tashconfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="177" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1tashconfig_1a6db09c7bdbdc06c524200ca3248d7efc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tash::tashconfig::~tashconfig</definition>
+        <argsstring>()</argsstring>
+        <name>~tashconfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="179" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="175" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="175" bodyend="182"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tash_1_1tashconfig_1a1d6b286fefa49d1e6fd299f04f25c75a" prot="public" virt="non-virtual"><scope>gr::tash::tashconfig</scope><name>tashconfig</name></member>
+      <member refid="classgr_1_1tash_1_1tashconfig_1a6db09c7bdbdc06c524200ca3248d7efc" prot="public" virt="non-virtual"><scope>gr::tash::tashconfig</scope><name>~tashconfig</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

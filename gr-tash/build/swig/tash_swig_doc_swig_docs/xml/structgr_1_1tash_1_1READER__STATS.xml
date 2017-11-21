@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structgr_1_1tash_1_1READER__STATS" kind="struct" language="C++" prot="public">
+    <compoundname>gr::tash::READER_STATS</compoundname>
+    <includes refid="tashconfig_8h" local="no">tashconfig.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1tash_1_1READER__STATS_1adb5e1391b5985fa203f1c92b73fe25d5" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::READER_STATS::n_queries_sent</definition>
+        <argsstring></argsstring>
+        <name>n_queries_sent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="55" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tash_1_1READER__STATS_1aee5235a0fe58a34e9ce0cd3b33acaac6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::READER_STATS::cur_inventory_round</definition>
+        <argsstring></argsstring>
+        <name>cur_inventory_round</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="56" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tash_1_1READER__STATS_1aa19d3c8ec71e3e0db95d1c9a459690f0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::READER_STATS::cur_slot_number</definition>
+        <argsstring></argsstring>
+        <name>cur_slot_number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="57" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tash_1_1READER__STATS_1a1b8efe2ae392e259887caba892bfc969" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::READER_STATS::max_slot_number</definition>
+        <argsstring></argsstring>
+        <name>max_slot_number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="58" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tash_1_1READER__STATS_1a0f228fe448a7bd88616f43f6bd481e56" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::READER_STATS::max_inventory_round</definition>
+        <argsstring></argsstring>
+        <name>max_inventory_round</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="59" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tash_1_1READER__STATS_1a5762bab622af673891ddc145d1d278df" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::READER_STATS::n_epc_correct</definition>
+        <argsstring></argsstring>
+        <name>n_epc_correct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="60" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tash_1_1READER__STATS_1a28bc8ec56ec601ae34e64ddb7012559b" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::tash::READER_STATS::unique_tags_round</definition>
+        <argsstring></argsstring>
+        <name>unique_tags_round</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="61" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tash_1_1READER__STATS_1a4ebd6a5f1ad88b9487b29fe25297c61d" prot="public" static="no" mutable="no">
+        <type>std::map&lt; int, int &gt;</type>
+        <definition>std::map&lt;int, int&gt; gr::tash::READER_STATS::tag_reads</definition>
+        <argsstring></argsstring>
+        <name>tag_reads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="62" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tash_1_1READER__STATS_1a74b14c15fa980cb907a2f279dcb8f90c" prot="public" static="no" mutable="no">
+        <type>struct timeval start</type>
+        <definition>struct timeval start gr::tash::READER_STATS::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="62" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="19">
+        <label>gr::tash::READER_STATS</label>
+        <link refid="structgr_1_1tash_1_1READER__STATS"/>
+        <childnode refid="20" relation="usage">
+          <edgelabel>tag_reads</edgelabel>
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>unique_tags_round</edgelabel>
+        </childnode>
+      </node>
+      <node id="20">
+        <label>std::map&lt; int, int &gt;</label>
+      </node>
+      <node id="21">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="54" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="54" bodyend="64"/>
+    <listofallmembers>
+      <member refid="structgr_1_1tash_1_1READER__STATS_1aee5235a0fe58a34e9ce0cd3b33acaac6" prot="public" virt="non-virtual"><scope>gr::tash::READER_STATS</scope><name>cur_inventory_round</name></member>
+      <member refid="structgr_1_1tash_1_1READER__STATS_1aa19d3c8ec71e3e0db95d1c9a459690f0" prot="public" virt="non-virtual"><scope>gr::tash::READER_STATS</scope><name>cur_slot_number</name></member>
+      <member refid="structgr_1_1tash_1_1READER__STATS_1a74b14c15fa980cb907a2f279dcb8f90c" prot="public" virt="non-virtual"><scope>gr::tash::READER_STATS</scope><name>end</name></member>
+      <member refid="structgr_1_1tash_1_1READER__STATS_1a0f228fe448a7bd88616f43f6bd481e56" prot="public" virt="non-virtual"><scope>gr::tash::READER_STATS</scope><name>max_inventory_round</name></member>
+      <member refid="structgr_1_1tash_1_1READER__STATS_1a1b8efe2ae392e259887caba892bfc969" prot="public" virt="non-virtual"><scope>gr::tash::READER_STATS</scope><name>max_slot_number</name></member>
+      <member refid="structgr_1_1tash_1_1READER__STATS_1a5762bab622af673891ddc145d1d278df" prot="public" virt="non-virtual"><scope>gr::tash::READER_STATS</scope><name>n_epc_correct</name></member>
+      <member refid="structgr_1_1tash_1_1READER__STATS_1adb5e1391b5985fa203f1c92b73fe25d5" prot="public" virt="non-virtual"><scope>gr::tash::READER_STATS</scope><name>n_queries_sent</name></member>
+      <member refid="structgr_1_1tash_1_1READER__STATS_1a4ebd6a5f1ad88b9487b29fe25297c61d" prot="public" virt="non-virtual"><scope>gr::tash::READER_STATS</scope><name>tag_reads</name></member>
+      <member refid="structgr_1_1tash_1_1READER__STATS_1a28bc8ec56ec601ae34e64ddb7012559b" prot="public" virt="non-virtual"><scope>gr::tash::READER_STATS</scope><name>unique_tags_round</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

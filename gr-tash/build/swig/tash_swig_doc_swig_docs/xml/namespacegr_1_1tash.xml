@@ -1,0 +1,760 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1tash" kind="namespace" language="C++">
+    <compoundname>gr::tash</compoundname>
+    <innerclass refid="classgr_1_1tash_1_1decoder" prot="public">gr::tash::decoder</innerclass>
+    <innerclass refid="classgr_1_1tash_1_1gate" prot="public">gr::tash::gate</innerclass>
+    <innerclass refid="classgr_1_1tash_1_1reader" prot="public">gr::tash::reader</innerclass>
+    <innerclass refid="structgr_1_1tash_1_1READER__STATE" prot="public">gr::tash::READER_STATE</innerclass>
+    <innerclass refid="structgr_1_1tash_1_1READER__STATS" prot="public">gr::tash::READER_STATS</innerclass>
+    <innerclass refid="classgr_1_1tash_1_1tashconfig" prot="public">gr::tash::tashconfig</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespacegr_1_1tash_1a8eff70afae401a01d3dc37ac3867baa3" prot="public" static="no">
+        <name>STATUS</name>
+        <enumvalue id="namespacegr_1_1tash_1a8eff70afae401a01d3dc37ac3867baa3afc1ad554c8ccf3957fb5e1ac1ab9432d" prot="public">
+          <name>RUNNING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a8eff70afae401a01d3dc37ac3867baa3ad3d3352cea9faa6cfa055bd7891a6cc7" prot="public">
+          <name>TERMINATED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="31" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8" prot="public" static="no">
+        <name>GEN2_LOGIC_STATUS</name>
+        <enumvalue id="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8afff144a7855ed9a5befa9402c7172665" prot="public">
+          <name>SEND_SELECT</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8af2b621a00b686c881e3d31812338bc79" prot="public">
+          <name>SEND_QUERY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8a6c986360fc455098b19601a7528d8c9d" prot="public">
+          <name>SEND_ACK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8a4980dc793d9845771878cc67e27e3f96" prot="public">
+          <name>SEND_QUERY_REP</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8af2403638b29e1c7cc93267a4c1e20bff" prot="public">
+          <name>IDLE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8aeb15472c1284d3c12215bce8e6082581" prot="public">
+          <name>SEND_CW</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8a01a215ece6e472355343e0c320d4b2f7" prot="public">
+          <name>START</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8a6eeb72f931728b703c43684a23bd4c3b" prot="public">
+          <name>SEND_QUERY_ADJUST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8a67331e80513f72406b42cb7c7d30e45c" prot="public">
+          <name>SEND_NAK_QR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8aab2bf5ae1c196c8982adf64d1382c063" prot="public">
+          <name>SEND_NAK_Q</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8a19a777c641c19878160abd64b00a68fe" prot="public">
+          <name>POWER_DOWN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="34" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="34" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1tash_1a92dd45339f6d9fec7f90504134242c0a" prot="public" static="no">
+        <name>GATE_STATUS</name>
+        <enumvalue id="namespacegr_1_1tash_1a92dd45339f6d9fec7f90504134242c0aa1ee5c4790740ef9a5c24fabd87e3a306" prot="public">
+          <name>GATE_OPEN</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a92dd45339f6d9fec7f90504134242c0aa457a05f37098f521a6ccc33a0faab6bf" prot="public">
+          <name>GATE_CLOSED</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a92dd45339f6d9fec7f90504134242c0aa434bc09d5ac81b6a49f35520ee8d0575" prot="public">
+          <name>GATE_SEEK_RN16</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1a92dd45339f6d9fec7f90504134242c0aae39aea0be2ece36c4552381ff5aa1797" prot="public">
+          <name>GATE_SEEK_EPC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="47" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespacegr_1_1tash_1ac51051a01a08dce16c939bfed09f074d" prot="public" static="no">
+        <name>DECODER_STATUS</name>
+        <enumvalue id="namespacegr_1_1tash_1ac51051a01a08dce16c939bfed09f074da2a02c26c7258926e0c7abbcd3b19d2e3" prot="public">
+          <name>DECODER_DECODE_RN16</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespacegr_1_1tash_1ac51051a01a08dce16c939bfed09f074da86007a3f39963d175d9ace0a26386220" prot="public">
+          <name>DECODER_DECODE_EPC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="50" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="50" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacegr_1_1tash_1afe72f2e8549bee5931a0fcd81e802cb0" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::FIXED_Q</definition>
+        <argsstring></argsstring>
+        <name>FIXED_Q</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="79" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a00eceeb7d85b56723236d933e428a18e" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::Q_VALUE[16][4]</definition>
+        <argsstring>[16][4]</argsstring>
+        <name>Q_VALUE</name>
+        <initializer>=
+                {
+                        {0, 0, 0, 0},
+                        {0, 0, 0, 1},
+                        {0, 0, 1, 0},
+                        {0, 0, 1, 1},
+                        {0, 1, 0, 0},
+                        {0, 1, 0, 1},
+                        {0, 1, 1, 0},
+                        {0, 1, 1, 1},
+                        {1, 0, 0, 0},
+                        {1, 0, 0, 1},
+                        {1, 0, 1, 0},
+                        {1, 0, 1, 1},
+                        {1, 1, 0, 0},
+                        {1, 1, 0, 1},
+                        {1, 1, 1, 0},
+                        {1, 1, 1, 1}
+                }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="86" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1ae71210595f9c3b5ded215fead98cfd16" prot="public" static="no" mutable="no">
+        <type>const bool</type>
+        <definition>const bool gr::tash::P_DOWN</definition>
+        <argsstring></argsstring>
+        <name>P_DOWN</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="106" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1af48c500d9d96087b32570b14cadf5d53" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::CW_D</definition>
+        <argsstring></argsstring>
+        <name>CW_D</name>
+        <initializer>= 250</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="109" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a4bab1a5649437e8b8303d5ca189b45b9" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::P_DOWN_D</definition>
+        <argsstring></argsstring>
+        <name>P_DOWN_D</name>
+        <initializer>= 2000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="110" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1adc7e97bf5a356429fc613d4325841b6e" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::T1_D</definition>
+        <argsstring></argsstring>
+        <name>T1_D</name>
+        <initializer>= 240</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="111" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1ac234d432f915fdb0d775d7f6d452e9be" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::T2_D</definition>
+        <argsstring></argsstring>
+        <name>T2_D</name>
+        <initializer>= 480</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="112" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1af352e63179553d6dc0dded96c48cc6ce" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::PW_D</definition>
+        <argsstring></argsstring>
+        <name>PW_D</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="113" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1aeb6363e2a4946aa05b41e991e6b9e625" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::DELIM_D</definition>
+        <argsstring></argsstring>
+        <name>DELIM_D</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="114" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1acc9ee1e3d32dfcc69b1eae27a99f5395" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::TRCAL_D</definition>
+        <argsstring></argsstring>
+        <name>TRCAL_D</name>
+        <initializer>= 200</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="115" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a3c77f2d87bbb9aa6cb23102597e4e401" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::RTCAL_D</definition>
+        <argsstring></argsstring>
+        <name>RTCAL_D</name>
+        <initializer>= 72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="116" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a6f64cd2c264b17ef5addec70268f8826" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::NUM_PULSES_COMMAND</definition>
+        <argsstring></argsstring>
+        <name>NUM_PULSES_COMMAND</name>
+        <initializer>= 5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="118" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a32eabc042907fe5448b85c6470c26fe1" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::NUMBER_UNIQUE_TAGS</definition>
+        <argsstring></argsstring>
+        <name>NUMBER_UNIQUE_TAGS</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="119" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a101f2a913104f1693b861f28e87b1e41" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::PILOT_TONE</definition>
+        <argsstring></argsstring>
+        <name>PILOT_TONE</name>
+        <initializer>= 12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="123" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1abb8ed904badd296f560c2210382b9b7a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::TAG_PREAMBLE_BITS</definition>
+        <argsstring></argsstring>
+        <name>TAG_PREAMBLE_BITS</name>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="124" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1ac9edac35792d5512a6df7996ca9ebf3f" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::RN16_BITS</definition>
+        <argsstring></argsstring>
+        <name>RN16_BITS</name>
+        <initializer>= 17</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="125" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a336eb37aa491bb9ce2324aa8302cd0a8" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::EPC_BITS</definition>
+        <argsstring></argsstring>
+        <name>EPC_BITS</name>
+        <initializer>= 129</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="126" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a06dc712e8dcae9ca96ad952181f76f8b" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::QUERY_LENGTH</definition>
+        <argsstring></argsstring>
+        <name>QUERY_LENGTH</name>
+        <initializer>= 22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="127" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1ac366a4ad1b32523c689ffc8dfd253937" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::T_READER_FREQ</definition>
+        <argsstring></argsstring>
+        <name>T_READER_FREQ</name>
+        <initializer>= 40e3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="129" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a3616610f51c2d57414e8ee31d9b874fe" prot="public" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::tash::TAG_BIT_D</definition>
+        <argsstring></argsstring>
+        <name>TAG_BIT_D</name>
+        <initializer>= 1.0 / <ref refid="namespacegr_1_1tash_1ac366a4ad1b32523c689ffc8dfd253937" kindref="member">T_READER_FREQ</ref> * pow(10, 6)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="130" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a3144530bc616155c27abb001f6048a3a" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::RN16_D</definition>
+        <argsstring></argsstring>
+        <name>RN16_D</name>
+        <initializer>= (<ref refid="namespacegr_1_1tash_1ac9edac35792d5512a6df7996ca9ebf3f" kindref="member">RN16_BITS</ref> + <ref refid="namespacegr_1_1tash_1abb8ed904badd296f560c2210382b9b7a" kindref="member">TAG_PREAMBLE_BITS</ref>) * <ref refid="namespacegr_1_1tash_1a3616610f51c2d57414e8ee31d9b874fe" kindref="member">TAG_BIT_D</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="131" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a11ff6bffaa1c06b652b787a37981fed5" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::EPC_D</definition>
+        <argsstring></argsstring>
+        <name>EPC_D</name>
+        <initializer>= (<ref refid="namespacegr_1_1tash_1a336eb37aa491bb9ce2324aa8302cd0a8" kindref="member">EPC_BITS</ref> + <ref refid="namespacegr_1_1tash_1abb8ed904badd296f560c2210382b9b7a" kindref="member">TAG_PREAMBLE_BITS</ref>) * <ref refid="namespacegr_1_1tash_1a3616610f51c2d57414e8ee31d9b874fe" kindref="member">TAG_BIT_D</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="132" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a17046be21e61cd26163a5b709ad0b9b2" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::QUERY_CODE[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>QUERY_CODE</name>
+        <initializer>= {1, 0, 0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="134" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1aa1353923b9c8c3829e098d2711f5db96" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::M[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>M</name>
+        <initializer>= {0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="135" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1ae3fc56caed814acf015f1d8906a05a47" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::SEL[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>SEL</name>
+        <initializer>= {0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="136" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a0763c763749317efb50192cf9c0783be" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::SESSION[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>SESSION</name>
+        <initializer>= {0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="137" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1ae765d322b12fa9e9c8ec0b3c3c5b8b27" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::TARGET</definition>
+        <argsstring></argsstring>
+        <name>TARGET</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="138" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a349d228cbc75f49e11d79f0016c275fc" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::TREXT</definition>
+        <argsstring></argsstring>
+        <name>TREXT</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="139" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a9d38df0f698909e35e9628032dc105cd" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::DR</definition>
+        <argsstring></argsstring>
+        <name>DR</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="140" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a676147879f9150b19cd3a13eec90c0d5" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::NAK_CODE[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>NAK_CODE</name>
+        <initializer>= {1, 1, 0, 0, 0, 0, 0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="143" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1ade2a080e7c59435d7e017478fd79e756" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::ACK_CODE[2]</definition>
+        <argsstring>[2]</argsstring>
+        <name>ACK_CODE</name>
+        <initializer>= {0, 1}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="146" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1aff9705aeed048b3795a83d5527b326fe" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::QADJ_CODE[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>QADJ_CODE</name>
+        <initializer>= {1, 0, 0, 1}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="149" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1ae4fc317697852ad0fd05d46d7302571e" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::Q_UPDN[3][3]</definition>
+        <argsstring>[3][3]</argsstring>
+        <name>Q_UPDN</name>
+        <initializer>= {{1, 1, 0},
+                                  {0, 0, 0},
+                                  {0, 1, 0}}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="152" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1a647fe993c618cdccf84c1682a3a50078" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::TAG_PREAMBLE[]</definition>
+        <argsstring>[]</argsstring>
+        <name>TAG_PREAMBLE</name>
+        <initializer>= {1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="157" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1ac1115ac5d0150238fbcce69b6aec9bf9" prot="public" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::tash::THRESH_FRACTION</definition>
+        <argsstring></argsstring>
+        <name>THRESH_FRACTION</name>
+        <initializer>= 0.75</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="160" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1ab31f67d7bc195a11d800047375790b0c" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::WIN_SIZE_D</definition>
+        <argsstring></argsstring>
+        <name>WIN_SIZE_D</name>
+        <initializer>= 250</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="161" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1ab8038e664224925415d915b9c5581f3b" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::DC_SIZE_D</definition>
+        <argsstring></argsstring>
+        <name>DC_SIZE_D</name>
+        <initializer>= 120</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="164" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacegr_1_1tash_1af6611c61fad8ddad2badceafcb5e41e4" prot="public" static="no" mutable="no">
+        <type><ref refid="structgr_1_1tash_1_1READER__STATE" kindref="compound">READER_STATE</ref> *</type>
+        <definition>READER_STATE* gr::tash::reader_state</definition>
+        <argsstring></argsstring>
+        <name>reader_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="167" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespacegr_1_1tash_1a62fb5056f3a733b84224b78741bf0121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tash::initialize_reader_state</definition>
+        <argsstring>()</argsstring>
+        <name>initialize_reader_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/tashconfig.h" line="169" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/include/tash/decoder.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<block>
+  <name>Gate</name>
+  <key>tash_gate</key>
+  <category>[TASH]</category>
+  <import>import tash</import>
+  <make>tash.gate($sample_rate)</make>
+  <param>
+    <name>Sample_rate</name>
+    <key>sample_rate</key>
+    <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>complex</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>complex</type>
+  </source>
+</block>

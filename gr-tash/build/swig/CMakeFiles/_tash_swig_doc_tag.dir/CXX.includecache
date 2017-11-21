@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/build/swig/_tash_swig_doc_tag.cpp
+

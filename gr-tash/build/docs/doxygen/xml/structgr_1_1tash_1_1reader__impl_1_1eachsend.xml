@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structgr_1_1tash_1_1reader__impl_1_1eachsend" kind="struct" language="C++" prot="private">
+    <compoundname>gr::tash::reader_impl::eachsend</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structgr_1_1tash_1_1reader__impl_1_1eachsend_1a4883d886d3ffdbc4234c05da52dd8dcf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::reader_impl::eachsend::slotNum</definition>
+        <argsstring></argsstring>
+        <name>slotNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="62" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structgr_1_1tash_1_1reader__impl_1_1eachsend_1a39ad7f67c70cc9ef9902c8d1a68f25d8" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; select_command &gt;</type>
+        <definition>std::vector&lt;select_command&gt; gr::tash::reader_impl::eachsend::select_input</definition>
+        <argsstring></argsstring>
+        <name>select_input</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="63" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="12">
+        <label>gr::tash::reader_impl::eachsend</label>
+        <childnode refid="13" relation="usage">
+          <edgelabel>select_input</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>gr::tash::reader_impl::select_command</label>
+        <childnode refid="15" relation="usage">
+          <edgelabel>SELECT_MASK</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>std::vector&lt; select_command &gt;</label>
+        <childnode refid="14" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="61" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="61" bodyend="64"/>
+    <listofallmembers>
+      <member refid="structgr_1_1tash_1_1reader__impl_1_1eachsend_1a39ad7f67c70cc9ef9902c8d1a68f25d8" prot="public" virt="non-virtual"><scope>gr::tash::reader_impl::eachsend</scope><name>select_input</name></member>
+      <member refid="structgr_1_1tash_1_1reader__impl_1_1eachsend_1a4883d886d3ffdbc4234c05da52dd8dcf" prot="public" virt="non-virtual"><scope>gr::tash::reader_impl::eachsend</scope><name>slotNum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

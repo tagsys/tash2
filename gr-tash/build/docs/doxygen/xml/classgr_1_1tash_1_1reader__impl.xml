@@ -1,0 +1,824 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1tash_1_1reader__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::tash::reader_impl</compoundname>
+    <basecompoundref refid="classgr_1_1tash_1_1reader" prot="public" virt="non-virtual">gr::tash::reader</basecompoundref>
+    <includes refid="reader__impl_8h" local="no">reader_impl.h</includes>
+    <innerclass refid="structgr_1_1tash_1_1reader__impl_1_1eachsend" prot="private">gr::tash::reader_impl::eachsend</innerclass>
+    <innerclass refid="structgr_1_1tash_1_1reader__impl_1_1select__command" prot="private">gr::tash::reader_impl::select_command</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a9c1a13a69890e37d2f59977b95627a2c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::reader_impl::s_rate</definition>
+        <argsstring></argsstring>
+        <name>s_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="31" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a3a93527f720890512366f218db5dca29" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::reader_impl::d_rate</definition>
+        <argsstring></argsstring>
+        <name>d_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="31" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a8dc8f445003e51d661b530ec48a9dc88" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::reader_impl::n_cwquery_s</definition>
+        <argsstring></argsstring>
+        <name>n_cwquery_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="31" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1aa524e0cae360de806805c753f683db48" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::reader_impl::n_cwack_s</definition>
+        <argsstring></argsstring>
+        <name>n_cwack_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="31" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1aff6184c6a3d10b27a1e7cd180a9d6a4e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::reader_impl::n_p_down_s</definition>
+        <argsstring></argsstring>
+        <name>n_p_down_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="31" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a5bebb5a21b0977f998fbd3268fe6493c" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::tash::reader_impl::sample_d</definition>
+        <argsstring></argsstring>
+        <name>sample_d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="32" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1aa72496cf4fd38dc1f4e3961e360a7763" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::tash::reader_impl::n_data0_s</definition>
+        <argsstring></argsstring>
+        <name>n_data0_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="32" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a1c55629238e7feebe8d11f1d26a69ef6" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::tash::reader_impl::n_data1_s</definition>
+        <argsstring></argsstring>
+        <name>n_data1_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="32" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a76e3a156dab0eddb8c564939615cdfe3" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::tash::reader_impl::n_cw_s</definition>
+        <argsstring></argsstring>
+        <name>n_cw_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="32" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a41a38afcf02fbd4a27d5b7ae3dccc87d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::tash::reader_impl::n_pw_s</definition>
+        <argsstring></argsstring>
+        <name>n_pw_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="32" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a3e21add2a9169b6250af570da8971df5" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::tash::reader_impl::n_delim_s</definition>
+        <argsstring></argsstring>
+        <name>n_delim_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="32" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a4100eff85972bccbdbec77773e9fc2ef" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::tash::reader_impl::n_trcal_s</definition>
+        <argsstring></argsstring>
+        <name>n_trcal_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="32" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a9e5e2c262f61fd5fb4e8be74e21156b8" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::data_0</definition>
+        <argsstring></argsstring>
+        <name>data_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a842b5f3b56f1dc4434cb5d1dee063986" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::data_1</definition>
+        <argsstring></argsstring>
+        <name>data_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a5fe8cceaa1533dbbaeebb9af00d0dde3" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::cw</definition>
+        <argsstring></argsstring>
+        <name>cw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1ac53909183bd6f7fb2bf9014c5de0a46f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::cw_ack</definition>
+        <argsstring></argsstring>
+        <name>cw_ack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a4578148f30bb4d0062bba00c0c0c194f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::cw_query</definition>
+        <argsstring></argsstring>
+        <name>cw_query</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a0be8698f861e111f67e678f3468446fe" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::delim</definition>
+        <argsstring></argsstring>
+        <name>delim</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a6dcc01f09fe222f2c183b9763aa12e36" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::frame_sync</definition>
+        <argsstring></argsstring>
+        <name>frame_sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1ac2bf6d6b072283f753ab79269fec17bb" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::preamble</definition>
+        <argsstring></argsstring>
+        <name>preamble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a43d4c79c679d2e4f29e9b7e39d013b88" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::rtcal</definition>
+        <argsstring></argsstring>
+        <name>rtcal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a38fc304fc425c81f6bc0cc7f5d79cb15" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::trcal</definition>
+        <argsstring></argsstring>
+        <name>trcal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1aa5526dc1db9947e3deb88e6946964e9f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::query_bits</definition>
+        <argsstring></argsstring>
+        <name>query_bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1acfa9fadbff9e04d90eb64f86dd724832" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::ack_bits</definition>
+        <argsstring></argsstring>
+        <name>ack_bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a1b53caa4daf4f6eb7ad76cfa71f710a8" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::query_rep</definition>
+        <argsstring></argsstring>
+        <name>query_rep</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a64067fdda7f106ae3ba48401806f5040" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::nak</definition>
+        <argsstring></argsstring>
+        <name>nak</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1adb786296ef6c9ed00b2274441eb99905" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::query_adjust_bits</definition>
+        <argsstring></argsstring>
+        <name>query_adjust_bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a9e6a13384a01aeda03c079e0e82e9af8" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::p_down</definition>
+        <argsstring></argsstring>
+        <name>p_down</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="33" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1ab8c86b83899b7934f881a11322e59e65" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::reader_impl::q_change</definition>
+        <argsstring></argsstring>
+        <name>q_change</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="34" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1aee1e4b2f98cda0bcc33457510ef7f404" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::tash::reader_impl::n_cw_charging_s</definition>
+        <argsstring></argsstring>
+        <name>n_cw_charging_s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="35" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a1d9403d57458e3def92476a50feaac7e" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::cw_charging</definition>
+        <argsstring></argsstring>
+        <name>cw_charging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="36" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1acbde1bba9e4969d2205c26267962d4f6" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::wait_T4</definition>
+        <argsstring></argsstring>
+        <name>wait_T4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="50" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1af301b420e6511dff71b9ec80495abe56" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::reader_impl::SELECT_CODE[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>SELECT_CODE</name>
+        <initializer>= {1, 0, 1, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="51" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a423c6b4b91705ce95295a19a46bcd428" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::tash::reader_impl::SELECT_TARGET[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>SELECT_TARGET</name>
+        <initializer>= {1, 0, 0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="52" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1ac2bb661a9ad2a3fb8c65263719f40084" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; eachsend &gt;</type>
+        <definition>std::vector&lt;eachsend&gt; gr::tash::reader_impl::send</definition>
+        <argsstring></argsstring>
+        <name>send</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="65" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a6739a1b2165d219ba1507193e4e80f42" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::tash::reader_impl::output</definition>
+        <argsstring></argsstring>
+        <name>output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="66" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1a0024e6d6333de16c5963083e076542ce" prot="private" static="no" mutable="no">
+        <type>timeval</type>
+        <definition>timeval gr::tash::reader_impl::all_start</definition>
+        <argsstring></argsstring>
+        <name>all_start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="70" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1tash_1_1reader__impl_1aa1f66bb00fe4f7eb32320bb903b67c88" prot="private" static="no" mutable="no">
+        <type>timeval</type>
+        <definition>timeval gr::tash::reader_impl::all_end</definition>
+        <argsstring></argsstring>
+        <name>all_end</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="70" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1a60ae57e229ea1109f72ed3870d0a7bcc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tash::reader_impl::gen_query_adjust_bits</definition>
+        <argsstring>()</argsstring>
+        <name>gen_query_adjust_bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1a0150cce90ab01ad2b8d4767873e311b1" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tash::reader_impl::crc_append</definition>
+        <argsstring>(std::vector&lt; float &gt; &amp;q)</argsstring>
+        <name>crc_append</name>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1a7a3d73d8389ca7d8b8699b2a87d6db5a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tash::reader_impl::gen_query_bits</definition>
+        <argsstring>()</argsstring>
+        <name>gen_query_bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1a0ae77de8cdc2c24ad1be989cf51c6c46" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tash::reader_impl::gen_ack_bits</definition>
+        <argsstring>(const float *in)</argsstring>
+        <name>gen_ack_bits</name>
+        <param>
+          <type>const float *</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1a3bc4742480b7ccc1df0d61e8232861d8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tash::reader_impl::crc16_append</definition>
+        <argsstring>(std::vector&lt; float &gt; &amp;q)</argsstring>
+        <name>crc16_append</name>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1aedd16aac5dc7a018f91b08e8c7239cdc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tash::reader_impl::setting</definition>
+        <argsstring>()</argsstring>
+        <name>setting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="72" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1a9d9ced06afeb8f6d474f064131819dbb" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tash::reader_impl::logfile</definition>
+        <argsstring>()</argsstring>
+        <name>logfile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1a656952fd29bef080923f6d880789364b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tash::reader_impl::gen_select_bits</definition>
+        <argsstring>(select_command &amp;input)</argsstring>
+        <name>gen_select_bits</name>
+        <param>
+          <type>select_command &amp;</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="76" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1a4e3e59ad9954aba0f5f9e4360b1ebacf" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::tash::reader_impl::print_results</definition>
+        <argsstring>()</argsstring>
+        <name>print_results</name>
+        <reimplements refid="classgr_1_1tash_1_1reader_1a7a3f57182b9909df3b8c46c26e009f85">print_results</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1a20c069d0d5090675cc8100bd54026c11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tash::reader_impl::reader_impl</definition>
+        <argsstring>(int sample_rate, int dac_rate)</argsstring>
+        <name>reader_impl</name>
+        <param>
+          <type>int</type>
+          <declname>sample_rate</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dac_rate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1a9cb0c8a13fc10c159efb34b5e3c25310" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::tash::reader_impl::~reader_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~reader_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1a51313564de4cd3814ae52e1dc196f2ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::tash::reader_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1tash_1_1reader__impl_1a9a4d74234ff9e6f038a8df01db9f5ce5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::tash::reader_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="88" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="33">
+        <label>gr::tash::reader</label>
+        <link refid="classgr_1_1tash_1_1reader"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>gr::tash::reader_impl</label>
+        <link refid="classgr_1_1tash_1_1reader__impl"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="36">
+        <label>gr::tash::reader</label>
+        <link refid="classgr_1_1tash_1_1reader"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>gr::tash::reader_impl</label>
+        <link refid="classgr_1_1tash_1_1reader__impl"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" line="29" column="1" bodyfile="/home/zhenlin/Documents/RFID/BasicMoudle/gr-tash/lib/reader_impl.h" bodystart="29" bodyend="94"/>
+    <listofallmembers>
+      <member refid="classgr_1_1tash_1_1reader__impl_1acfa9fadbff9e04d90eb64f86dd724832" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>ack_bits</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1aa1f66bb00fe4f7eb32320bb903b67c88" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>all_end</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a0024e6d6333de16c5963083e076542ce" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>all_start</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a3bc4742480b7ccc1df0d61e8232861d8" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>crc16_append</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a0150cce90ab01ad2b8d4767873e311b1" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>crc_append</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a5fe8cceaa1533dbbaeebb9af00d0dde3" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>cw</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1ac53909183bd6f7fb2bf9014c5de0a46f" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>cw_ack</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a1d9403d57458e3def92476a50feaac7e" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>cw_charging</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a4578148f30bb4d0062bba00c0c0c194f" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>cw_query</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a3a93527f720890512366f218db5dca29" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>d_rate</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a9e5e2c262f61fd5fb4e8be74e21156b8" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>data_0</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a842b5f3b56f1dc4434cb5d1dee063986" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>data_1</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a0be8698f861e111f67e678f3468446fe" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>delim</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a51313564de4cd3814ae52e1dc196f2ee" prot="public" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a6dcc01f09fe222f2c183b9763aa12e36" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>frame_sync</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a0ae77de8cdc2c24ad1be989cf51c6c46" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>gen_ack_bits</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a60ae57e229ea1109f72ed3870d0a7bcc" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>gen_query_adjust_bits</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a7a3d73d8389ca7d8b8699b2a87d6db5a" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>gen_query_bits</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a656952fd29bef080923f6d880789364b" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>gen_select_bits</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a9a4d74234ff9e6f038a8df01db9f5ce5" prot="public" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a9d9ced06afeb8f6d474f064131819dbb" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>logfile</name></member>
+      <member refid="classgr_1_1tash_1_1reader_1a4acc5e666b65e590fd9e04285302a87e" prot="public" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1aee1e4b2f98cda0bcc33457510ef7f404" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>n_cw_charging_s</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a76e3a156dab0eddb8c564939615cdfe3" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>n_cw_s</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1aa524e0cae360de806805c753f683db48" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>n_cwack_s</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a8dc8f445003e51d661b530ec48a9dc88" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>n_cwquery_s</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1aa72496cf4fd38dc1f4e3961e360a7763" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>n_data0_s</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a1c55629238e7feebe8d11f1d26a69ef6" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>n_data1_s</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a3e21add2a9169b6250af570da8971df5" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>n_delim_s</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1aff6184c6a3d10b27a1e7cd180a9d6a4e" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>n_p_down_s</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a41a38afcf02fbd4a27d5b7ae3dccc87d" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>n_pw_s</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a4100eff85972bccbdbec77773e9fc2ef" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>n_trcal_s</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a64067fdda7f106ae3ba48401806f5040" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>nak</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a6739a1b2165d219ba1507193e4e80f42" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>output</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a9e6a13384a01aeda03c079e0e82e9af8" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>p_down</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1ac2bf6d6b072283f753ab79269fec17bb" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>preamble</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a4e3e59ad9954aba0f5f9e4360b1ebacf" prot="public" virt="virtual"><scope>gr::tash::reader_impl</scope><name>print_results</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1ab8c86b83899b7934f881a11322e59e65" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>q_change</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1adb786296ef6c9ed00b2274441eb99905" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>query_adjust_bits</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1aa5526dc1db9947e3deb88e6946964e9f" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>query_bits</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a1b53caa4daf4f6eb7ad76cfa71f710a8" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>query_rep</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a20c069d0d5090675cc8100bd54026c11" prot="public" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>reader_impl</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a43d4c79c679d2e4f29e9b7e39d013b88" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>rtcal</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a9c1a13a69890e37d2f59977b95627a2c" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>s_rate</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a5bebb5a21b0977f998fbd3268fe6493c" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>sample_d</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1af301b420e6511dff71b9ec80495abe56" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>SELECT_CODE</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a423c6b4b91705ce95295a19a46bcd428" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>SELECT_TARGET</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1ac2bb661a9ad2a3fb8c65263719f40084" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>send</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1aedd16aac5dc7a018f91b08e8c7239cdc" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>setting</name></member>
+      <member refid="classgr_1_1tash_1_1reader_1a1f81ef9266ea9ceb28556cd4bbb8faf6" prot="public" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a38fc304fc425c81f6bc0cc7f5d79cb15" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>trcal</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1acbde1bba9e4969d2205c26267962d4f6" prot="private" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>wait_T4</name></member>
+      <member refid="classgr_1_1tash_1_1reader__impl_1a9cb0c8a13fc10c159efb34b5e3c25310" prot="public" virt="non-virtual"><scope>gr::tash::reader_impl</scope><name>~reader_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

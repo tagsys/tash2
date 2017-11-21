@@ -1,0 +1,246 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1tash_1_1decoder" kind="class"><name>gr::tash::decoder</name>
+    <member refid="classgr_1_1tash_1_1decoder_1a76bd7a714c243f5bed52480de9c0ad03" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1tash_1_1decoder_1ab29336d2717eef555e842c6acfd816b2" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1tash_1_1decoder__impl" kind="class"><name>gr::tash::decoder_impl</name>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1a984eb4d914b22ffdb5ab06f55ec0f15c" kind="variable"><name>n_samples_TAG_BIT</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1a795b78ee21e79d9b4578e8c01c965c5b" kind="variable"><name>s_rate</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1aa43f69372c7c39db43b3cc76d71de38a" kind="variable"><name>pulse_bit</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1a4dc0dc076e6c06d58ec44649436ffc3c" kind="variable"><name>T_global</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1a8b09e7064fb17d33bbdc0c51d02ef43f" kind="variable"><name>h_est</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1adc328e5831bd54dbf88f98c574b3576b" kind="variable"><name>char_bits</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1a05eceee63875e626d1b6ac96836bf174" kind="function"><name>tag_detection_EPC</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1a779b8e25482f8e4e1f76385ac4b3738e" kind="function"><name>tag_detection_RN16</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1a7a4a551c0f0be56f80503e3b46b69920" kind="function"><name>tag_sync</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1aaf02f28ef7d11b0a0210717497e257c8" kind="function"><name>check_crc</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1a135d1b8694eed77a7a3a329eefe722f7" kind="function"><name>tag_decoder_impl</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1aae4036d196db084b9e8f0ff1f151f322" kind="function"><name>~tag_decoder_impl</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1ae2e6c19712db9d992c8fd6d3a6bb1161" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1tash_1_1decoder__impl_1a808e7ed9d7bd92c1ddfcbdf46e51dc5b" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="structgr_1_1tash_1_1reader__impl_1_1eachsend" kind="struct"><name>gr::tash::reader_impl::eachsend</name>
+    <member refid="structgr_1_1tash_1_1reader__impl_1_1eachsend_1a4883d886d3ffdbc4234c05da52dd8dcf" kind="variable"><name>slotNum</name></member>
+    <member refid="structgr_1_1tash_1_1reader__impl_1_1eachsend_1a39ad7f67c70cc9ef9902c8d1a68f25d8" kind="variable"><name>select_input</name></member>
+  </compound>
+  <compound refid="classgr_1_1tash_1_1gate" kind="class"><name>gr::tash::gate</name>
+    <member refid="classgr_1_1tash_1_1gate_1ad4141e002564b27f3d5687caf01cf748" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1tash_1_1gate_1af487c50277b480117b118af7ff414fdf" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1tash_1_1gate__impl" kind="class"><name>gr::tash::gate_impl</name>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a62f7d38ea2e2ca9cc075ba736114083b" kind="enum"><name>SIGNAL_STATE</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a62f7d38ea2e2ca9cc075ba736114083ba68b6ff9d11e3453574ba9918882a0700" kind="enumvalue"><name>NEG_EDGE</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a62f7d38ea2e2ca9cc075ba736114083ba15abfaec309d18f0bd3d7afa454febea" kind="enumvalue"><name>POS_EDGE</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a87a53fa809c0dc7a772dc4ce87aa802a" kind="variable"><name>n_samples</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1ac8bffca4aa7b7db3a91182110da6f51c" kind="variable"><name>n_samples_T1</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a057902cd0e53f81e69b96e80675edb02" kind="variable"><name>n_samples_PW</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a63e795ffe213ced56b551bba2e0d9767" kind="variable"><name>n_samples_TAG_BIT</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a5f6512ba8ba7ba3ac85f0eda22485cad" kind="variable"><name>win_index</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a7cfd2d52776bbfb227f83b6874c57c18" kind="variable"><name>dc_index</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1aab6c54afede9e92a005064f3bb5e8f02" kind="variable"><name>win_length</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1af1026ac3c7e60c615f6cde6a7751e3d0" kind="variable"><name>dc_length</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a4259a9b559d3087cfcf4608c8452f4aa" kind="variable"><name>s_rate</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1ae1fbd0684b2a9f7c71f17a528b81f0f3" kind="variable"><name>avg_ampl</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a7ee514d4f286da13c1eb46cc23a6be95" kind="variable"><name>num_pulses</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a51a8ca2ad0a677a2ec1f2bfcd4b0f02d" kind="variable"><name>sample_thresh</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a7eb6c0267676a4788d1967ef184374f3" kind="variable"><name>win_samples</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1af1c8f8e973928595dae36f8496e303e5" kind="variable"><name>cw_samples</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a3ceda8a2b6094e54f3dc8a34130f0ad4" kind="variable"><name>dc_samples</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a8625f4545948681efd8b0aec9473f446" kind="variable"><name>dc_est</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a73525db8c87e0092b80c91ef5f3d73ae" kind="variable"><name>signal_state</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a9d482a8ebacea3931083d4a8d2c57f52" kind="function"><name>gate_impl</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1a3e9ffc3530c7e7c74090d1143a53a925" kind="function"><name>~gate_impl</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1ace7101ef09b93ac7ab6f0642435599d5" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1tash_1_1gate__impl_1ac574efe836dfbf3c1730f74988e0383f" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="classgr_1_1tash_1_1reader" kind="class"><name>gr::tash::reader</name>
+    <member refid="classgr_1_1tash_1_1reader_1a1f81ef9266ea9ceb28556cd4bbb8faf6" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1tash_1_1reader_1a7a3f57182b9909df3b8c46c26e009f85" kind="function"><name>print_results</name></member>
+    <member refid="classgr_1_1tash_1_1reader_1a4acc5e666b65e590fd9e04285302a87e" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1tash_1_1reader__impl" kind="class"><name>gr::tash::reader_impl</name>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a9c1a13a69890e37d2f59977b95627a2c" kind="variable"><name>s_rate</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a3a93527f720890512366f218db5dca29" kind="variable"><name>d_rate</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a8dc8f445003e51d661b530ec48a9dc88" kind="variable"><name>n_cwquery_s</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1aa524e0cae360de806805c753f683db48" kind="variable"><name>n_cwack_s</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1aff6184c6a3d10b27a1e7cd180a9d6a4e" kind="variable"><name>n_p_down_s</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a5bebb5a21b0977f998fbd3268fe6493c" kind="variable"><name>sample_d</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1aa72496cf4fd38dc1f4e3961e360a7763" kind="variable"><name>n_data0_s</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a1c55629238e7feebe8d11f1d26a69ef6" kind="variable"><name>n_data1_s</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a76e3a156dab0eddb8c564939615cdfe3" kind="variable"><name>n_cw_s</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a41a38afcf02fbd4a27d5b7ae3dccc87d" kind="variable"><name>n_pw_s</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a3e21add2a9169b6250af570da8971df5" kind="variable"><name>n_delim_s</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a4100eff85972bccbdbec77773e9fc2ef" kind="variable"><name>n_trcal_s</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a9e5e2c262f61fd5fb4e8be74e21156b8" kind="variable"><name>data_0</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a842b5f3b56f1dc4434cb5d1dee063986" kind="variable"><name>data_1</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a5fe8cceaa1533dbbaeebb9af00d0dde3" kind="variable"><name>cw</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1ac53909183bd6f7fb2bf9014c5de0a46f" kind="variable"><name>cw_ack</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a4578148f30bb4d0062bba00c0c0c194f" kind="variable"><name>cw_query</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a0be8698f861e111f67e678f3468446fe" kind="variable"><name>delim</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a6dcc01f09fe222f2c183b9763aa12e36" kind="variable"><name>frame_sync</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1ac2bf6d6b072283f753ab79269fec17bb" kind="variable"><name>preamble</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a43d4c79c679d2e4f29e9b7e39d013b88" kind="variable"><name>rtcal</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a38fc304fc425c81f6bc0cc7f5d79cb15" kind="variable"><name>trcal</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1aa5526dc1db9947e3deb88e6946964e9f" kind="variable"><name>query_bits</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1acfa9fadbff9e04d90eb64f86dd724832" kind="variable"><name>ack_bits</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a1b53caa4daf4f6eb7ad76cfa71f710a8" kind="variable"><name>query_rep</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a64067fdda7f106ae3ba48401806f5040" kind="variable"><name>nak</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1adb786296ef6c9ed00b2274441eb99905" kind="variable"><name>query_adjust_bits</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a9e6a13384a01aeda03c079e0e82e9af8" kind="variable"><name>p_down</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1ab8c86b83899b7934f881a11322e59e65" kind="variable"><name>q_change</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1aee1e4b2f98cda0bcc33457510ef7f404" kind="variable"><name>n_cw_charging_s</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a1d9403d57458e3def92476a50feaac7e" kind="variable"><name>cw_charging</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1acbde1bba9e4969d2205c26267962d4f6" kind="variable"><name>wait_T4</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1af301b420e6511dff71b9ec80495abe56" kind="variable"><name>SELECT_CODE</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a423c6b4b91705ce95295a19a46bcd428" kind="variable"><name>SELECT_TARGET</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1ac2bb661a9ad2a3fb8c65263719f40084" kind="variable"><name>send</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a6739a1b2165d219ba1507193e4e80f42" kind="variable"><name>output</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a0024e6d6333de16c5963083e076542ce" kind="variable"><name>all_start</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1aa1f66bb00fe4f7eb32320bb903b67c88" kind="variable"><name>all_end</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a60ae57e229ea1109f72ed3870d0a7bcc" kind="function"><name>gen_query_adjust_bits</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a0150cce90ab01ad2b8d4767873e311b1" kind="function"><name>crc_append</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a7a3d73d8389ca7d8b8699b2a87d6db5a" kind="function"><name>gen_query_bits</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a0ae77de8cdc2c24ad1be989cf51c6c46" kind="function"><name>gen_ack_bits</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a3bc4742480b7ccc1df0d61e8232861d8" kind="function"><name>crc16_append</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1aedd16aac5dc7a018f91b08e8c7239cdc" kind="function"><name>setting</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a9d9ced06afeb8f6d474f064131819dbb" kind="function"><name>logfile</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a656952fd29bef080923f6d880789364b" kind="function"><name>gen_select_bits</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a4e3e59ad9954aba0f5f9e4360b1ebacf" kind="function"><name>print_results</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a20c069d0d5090675cc8100bd54026c11" kind="function"><name>reader_impl</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a9cb0c8a13fc10c159efb34b5e3c25310" kind="function"><name>~reader_impl</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a51313564de4cd3814ae52e1dc196f2ee" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1tash_1_1reader__impl_1a9a4d74234ff9e6f038a8df01db9f5ce5" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="structgr_1_1tash_1_1READER__STATE" kind="struct"><name>gr::tash::READER_STATE</name>
+    <member refid="structgr_1_1tash_1_1READER__STATE_1ab33dc074de1ece94665db81894dddf1e" kind="variable"><name>status</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATE_1ae1943628b05c87b5b3cc91fa1765ae24" kind="variable"><name>gen2_logic_status</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATE_1ae4262dc2727e4b16ff289bdceb14306a" kind="variable"><name>gate_status</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATE_1a37aa3931bb96d8a52001b7e46fd85fda" kind="variable"><name>decoder_status</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATE_1a6e6e49b2e2b54df8fb60ca1ffe4a937d" kind="variable"><name>reader_stats</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATE_1a480bc25e1b590401f1f6645160be4cda" kind="variable"><name>magn_squared_samples</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATE_1accfdf81e1fb4d6e3cb0144fd1606de3a" kind="variable"><name>n_samples_to_ungate</name></member>
+  </compound>
+  <compound refid="structgr_1_1tash_1_1READER__STATS" kind="struct"><name>gr::tash::READER_STATS</name>
+    <member refid="structgr_1_1tash_1_1READER__STATS_1adb5e1391b5985fa203f1c92b73fe25d5" kind="variable"><name>n_queries_sent</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATS_1aee5235a0fe58a34e9ce0cd3b33acaac6" kind="variable"><name>cur_inventory_round</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATS_1aa19d3c8ec71e3e0db95d1c9a459690f0" kind="variable"><name>cur_slot_number</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATS_1a1b8efe2ae392e259887caba892bfc969" kind="variable"><name>max_slot_number</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATS_1a0f228fe448a7bd88616f43f6bd481e56" kind="variable"><name>max_inventory_round</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATS_1a5762bab622af673891ddc145d1d278df" kind="variable"><name>n_epc_correct</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATS_1a28bc8ec56ec601ae34e64ddb7012559b" kind="variable"><name>unique_tags_round</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATS_1a4ebd6a5f1ad88b9487b29fe25297c61d" kind="variable"><name>tag_reads</name></member>
+    <member refid="structgr_1_1tash_1_1READER__STATS_1a74b14c15fa980cb907a2f279dcb8f90c" kind="variable"><name>end</name></member>
+  </compound>
+  <compound refid="structgr_1_1tash_1_1reader__impl_1_1select__command" kind="struct"><name>gr::tash::reader_impl::select_command</name>
+    <member refid="structgr_1_1tash_1_1reader__impl_1_1select__command_1a88d183b5ae0958f2445444b8785ca253" kind="variable"><name>SELECT_ACTION</name></member>
+    <member refid="structgr_1_1tash_1_1reader__impl_1_1select__command_1ae6bd5589e55dca65c1f96be1316f28b2" kind="variable"><name>SELECT_MEMBANK</name></member>
+    <member refid="structgr_1_1tash_1_1reader__impl_1_1select__command_1a15c78d72a497a606e5c2b8773dceba31" kind="variable"><name>SELECT_POINTER</name></member>
+    <member refid="structgr_1_1tash_1_1reader__impl_1_1select__command_1a0ab80f122d427e48034051d7c9574183" kind="variable"><name>SELECT_LENGTH</name></member>
+    <member refid="structgr_1_1tash_1_1reader__impl_1_1select__command_1a73d40e70630273838ab321b893aa0ba7" kind="variable"><name>SELECT_TRUNCATE</name></member>
+    <member refid="structgr_1_1tash_1_1reader__impl_1_1select__command_1a02e23a44c6a7e3bac3758598e97108e9" kind="variable"><name>SELECT_MASK</name></member>
+  </compound>
+  <compound refid="classgr_1_1tash_1_1tashconfig" kind="class"><name>gr::tash::tashconfig</name>
+    <member refid="classgr_1_1tash_1_1tashconfig_1a1d6b286fefa49d1e6fd299f04f25c75a" kind="function"><name>tashconfig</name></member>
+    <member refid="classgr_1_1tash_1_1tashconfig_1a6db09c7bdbdc06c524200ca3248d7efc" kind="function"><name>~tashconfig</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1tash" kind="namespace"><name>gr::tash</name>
+    <member refid="namespacegr_1_1tash_1a8eff70afae401a01d3dc37ac3867baa3" kind="enum"><name>STATUS</name></member>
+    <member refid="namespacegr_1_1tash_1a8eff70afae401a01d3dc37ac3867baa3afc1ad554c8ccf3957fb5e1ac1ab9432d" kind="enumvalue"><name>RUNNING</name></member>
+    <member refid="namespacegr_1_1tash_1a8eff70afae401a01d3dc37ac3867baa3ad3d3352cea9faa6cfa055bd7891a6cc7" kind="enumvalue"><name>TERMINATED</name></member>
+    <member refid="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8" kind="enum"><name>GEN2_LOGIC_STATUS</name></member>
+    <member refid="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8afff144a7855ed9a5befa9402c7172665" kind="enumvalue"><name>SEND_SELECT</name></member>
+    <member refid="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8af2b621a00b686c881e3d31812338bc79" kind="enumvalue"><name>SEND_QUERY</name></member>
+    <member refid="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8a6c986360fc455098b19601a7528d8c9d" kind="enumvalue"><name>SEND_ACK</name></member>
+    <member refid="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8a4980dc793d9845771878cc67e27e3f96" kind="enumvalue"><name>SEND_QUERY_REP</name></member>
+    <member refid="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8af2403638b29e1c7cc93267a4c1e20bff" kind="enumvalue"><name>IDLE</name></member>
+    <member refid="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8aeb15472c1284d3c12215bce8e6082581" kind="enumvalue"><name>SEND_CW</name></member>
+    <member refid="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8a01a215ece6e472355343e0c320d4b2f7" kind="enumvalue"><name>START</name></member>
+    <member refid="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8a6eeb72f931728b703c43684a23bd4c3b" kind="enumvalue"><name>SEND_QUERY_ADJUST</name></member>
+    <member refid="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8a67331e80513f72406b42cb7c7d30e45c" kind="enumvalue"><name>SEND_NAK_QR</name></member>
+    <member refid="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8aab2bf5ae1c196c8982adf64d1382c063" kind="enumvalue"><name>SEND_NAK_Q</name></member>
+    <member refid="namespacegr_1_1tash_1a937a5ef8a7b493ed495bfe80f91f86c8a19a777c641c19878160abd64b00a68fe" kind="enumvalue"><name>POWER_DOWN</name></member>
+    <member refid="namespacegr_1_1tash_1a92dd45339f6d9fec7f90504134242c0a" kind="enum"><name>GATE_STATUS</name></member>
+    <member refid="namespacegr_1_1tash_1a92dd45339f6d9fec7f90504134242c0aa1ee5c4790740ef9a5c24fabd87e3a306" kind="enumvalue"><name>GATE_OPEN</name></member>
+    <member refid="namespacegr_1_1tash_1a92dd45339f6d9fec7f90504134242c0aa457a05f37098f521a6ccc33a0faab6bf" kind="enumvalue"><name>GATE_CLOSED</name></member>
+    <member refid="namespacegr_1_1tash_1a92dd45339f6d9fec7f90504134242c0aa434bc09d5ac81b6a49f35520ee8d0575" kind="enumvalue"><name>GATE_SEEK_RN16</name></member>
+    <member refid="namespacegr_1_1tash_1a92dd45339f6d9fec7f90504134242c0aae39aea0be2ece36c4552381ff5aa1797" kind="enumvalue"><name>GATE_SEEK_EPC</name></member>
+    <member refid="namespacegr_1_1tash_1ac51051a01a08dce16c939bfed09f074d" kind="enum"><name>DECODER_STATUS</name></member>
+    <member refid="namespacegr_1_1tash_1ac51051a01a08dce16c939bfed09f074da2a02c26c7258926e0c7abbcd3b19d2e3" kind="enumvalue"><name>DECODER_DECODE_RN16</name></member>
+    <member refid="namespacegr_1_1tash_1ac51051a01a08dce16c939bfed09f074da86007a3f39963d175d9ace0a26386220" kind="enumvalue"><name>DECODER_DECODE_EPC</name></member>
+    <member refid="namespacegr_1_1tash_1afe72f2e8549bee5931a0fcd81e802cb0" kind="variable"><name>FIXED_Q</name></member>
+    <member refid="namespacegr_1_1tash_1a00eceeb7d85b56723236d933e428a18e" kind="variable"><name>Q_VALUE</name></member>
+    <member refid="namespacegr_1_1tash_1ae71210595f9c3b5ded215fead98cfd16" kind="variable"><name>P_DOWN</name></member>
+    <member refid="namespacegr_1_1tash_1af48c500d9d96087b32570b14cadf5d53" kind="variable"><name>CW_D</name></member>
+    <member refid="namespacegr_1_1tash_1a4bab1a5649437e8b8303d5ca189b45b9" kind="variable"><name>P_DOWN_D</name></member>
+    <member refid="namespacegr_1_1tash_1adc7e97bf5a356429fc613d4325841b6e" kind="variable"><name>T1_D</name></member>
+    <member refid="namespacegr_1_1tash_1ac234d432f915fdb0d775d7f6d452e9be" kind="variable"><name>T2_D</name></member>
+    <member refid="namespacegr_1_1tash_1af352e63179553d6dc0dded96c48cc6ce" kind="variable"><name>PW_D</name></member>
+    <member refid="namespacegr_1_1tash_1aeb6363e2a4946aa05b41e991e6b9e625" kind="variable"><name>DELIM_D</name></member>
+    <member refid="namespacegr_1_1tash_1acc9ee1e3d32dfcc69b1eae27a99f5395" kind="variable"><name>TRCAL_D</name></member>
+    <member refid="namespacegr_1_1tash_1a3c77f2d87bbb9aa6cb23102597e4e401" kind="variable"><name>RTCAL_D</name></member>
+    <member refid="namespacegr_1_1tash_1a6f64cd2c264b17ef5addec70268f8826" kind="variable"><name>NUM_PULSES_COMMAND</name></member>
+    <member refid="namespacegr_1_1tash_1a32eabc042907fe5448b85c6470c26fe1" kind="variable"><name>NUMBER_UNIQUE_TAGS</name></member>
+    <member refid="namespacegr_1_1tash_1a101f2a913104f1693b861f28e87b1e41" kind="variable"><name>PILOT_TONE</name></member>
+    <member refid="namespacegr_1_1tash_1abb8ed904badd296f560c2210382b9b7a" kind="variable"><name>TAG_PREAMBLE_BITS</name></member>
+    <member refid="namespacegr_1_1tash_1ac9edac35792d5512a6df7996ca9ebf3f" kind="variable"><name>RN16_BITS</name></member>
+    <member refid="namespacegr_1_1tash_1a336eb37aa491bb9ce2324aa8302cd0a8" kind="variable"><name>EPC_BITS</name></member>
+    <member refid="namespacegr_1_1tash_1a06dc712e8dcae9ca96ad952181f76f8b" kind="variable"><name>QUERY_LENGTH</name></member>
+    <member refid="namespacegr_1_1tash_1ac366a4ad1b32523c689ffc8dfd253937" kind="variable"><name>T_READER_FREQ</name></member>
+    <member refid="namespacegr_1_1tash_1a3616610f51c2d57414e8ee31d9b874fe" kind="variable"><name>TAG_BIT_D</name></member>
+    <member refid="namespacegr_1_1tash_1a3144530bc616155c27abb001f6048a3a" kind="variable"><name>RN16_D</name></member>
+    <member refid="namespacegr_1_1tash_1a11ff6bffaa1c06b652b787a37981fed5" kind="variable"><name>EPC_D</name></member>
+    <member refid="namespacegr_1_1tash_1a17046be21e61cd26163a5b709ad0b9b2" kind="variable"><name>QUERY_CODE</name></member>
+    <member refid="namespacegr_1_1tash_1aa1353923b9c8c3829e098d2711f5db96" kind="variable"><name>M</name></member>
+    <member refid="namespacegr_1_1tash_1ae3fc56caed814acf015f1d8906a05a47" kind="variable"><name>SEL</name></member>
+    <member refid="namespacegr_1_1tash_1a0763c763749317efb50192cf9c0783be" kind="variable"><name>SESSION</name></member>
+    <member refid="namespacegr_1_1tash_1ae765d322b12fa9e9c8ec0b3c3c5b8b27" kind="variable"><name>TARGET</name></member>
+    <member refid="namespacegr_1_1tash_1a349d228cbc75f49e11d79f0016c275fc" kind="variable"><name>TREXT</name></member>
+    <member refid="namespacegr_1_1tash_1a9d38df0f698909e35e9628032dc105cd" kind="variable"><name>DR</name></member>
+    <member refid="namespacegr_1_1tash_1a676147879f9150b19cd3a13eec90c0d5" kind="variable"><name>NAK_CODE</name></member>
+    <member refid="namespacegr_1_1tash_1ade2a080e7c59435d7e017478fd79e756" kind="variable"><name>ACK_CODE</name></member>
+    <member refid="namespacegr_1_1tash_1aff9705aeed048b3795a83d5527b326fe" kind="variable"><name>QADJ_CODE</name></member>
+    <member refid="namespacegr_1_1tash_1ae4fc317697852ad0fd05d46d7302571e" kind="variable"><name>Q_UPDN</name></member>
+    <member refid="namespacegr_1_1tash_1a647fe993c618cdccf84c1682a3a50078" kind="variable"><name>TAG_PREAMBLE</name></member>
+    <member refid="namespacegr_1_1tash_1ac1115ac5d0150238fbcce69b6aec9bf9" kind="variable"><name>THRESH_FRACTION</name></member>
+    <member refid="namespacegr_1_1tash_1ab31f67d7bc195a11d800047375790b0c" kind="variable"><name>WIN_SIZE_D</name></member>
+    <member refid="namespacegr_1_1tash_1ab8038e664224925415d915b9c5581f3b" kind="variable"><name>DC_SIZE_D</name></member>
+    <member refid="namespacegr_1_1tash_1af6611c61fad8ddad2badceafcb5e41e4" kind="variable"><name>reader_state</name></member>
+    <member refid="namespacegr_1_1tash_1a62fb5056f3a733b84224b78741bf0121" kind="function"><name>initialize_reader_state</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a74a8c725900b65e1a655fa7b1c98fc4c" kind="define"><name>TASH_API</name></member>
+  </compound>
+  <compound refid="decoder_8h" kind="file"><name>decoder.h</name>
+  </compound>
+  <compound refid="decoder__impl_8h" kind="file"><name>decoder_impl.h</name>
+  </compound>
+  <compound refid="gate_8h" kind="file"><name>gate.h</name>
+  </compound>
+  <compound refid="gate__impl_8h" kind="file"><name>gate_impl.h</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="reader_8h" kind="file"><name>reader.h</name>
+  </compound>
+  <compound refid="reader__impl_8h" kind="file"><name>reader_impl.h</name>
+  </compound>
+  <compound refid="tashconfig_8h" kind="file"><name>tashconfig.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_0e152dcd6b2b480e6d63606f6ded66ad" kind="dir"><name>tash</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>
